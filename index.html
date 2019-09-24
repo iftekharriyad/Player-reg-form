@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </header>
+  <body>
+<h1 id="title">Shah Akram Towhid Champions League</h1>
+<label id="description">A football tournament in the memory of Akram Towhid.organized by <strong>MATHLETES</strong>
+<h2>Player Registration Form</h2>
+<main id="main">
+<form id="survey-form">
+  <div class="form-row">
+    <div class="left-column">
+      <div class="labels">
+      <label  for="name-label">* Name:</label>
+      </div>
+    </div>
+    <div class="right-column">
+      <label for="name-label">
+        <input id="name-label"  class="input-field" type="text" placeholder="Enter your name" required="">
+      </label>
+    </div>
+  </div>
+   <div class="form-row">
+    <div class="left-column">
+      <div class="labels">
+      <label  for="session-label">* Session:</label>
+      </div>
+    </div>
+    <div class="right-column">
+      <label for="session-label">
+        <input id="session-label"  class="input-field" type="number" placeholder="Enter your session" required="">
+      </label>
+    </div>
+  </div>
+   <div class="form-row">
+    <div class="left-column">
+      <div class="labels">
+      <label  for="semester-label">* Semester/Year:</label>
+      </div>
+    </div>
+    <div class="right-column">
+      <label for="semester-label">
+        <input id="semester-label"  class="input-field" type="number" placeholder="Enter your semester/year" required="">
+      </label>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="left-column">
+      <div class="labels">
+      <label  for="regestration-label">* Regestration No:</label>
+      </div>
+    </div>
+    <div class="right-column">
+      <label for="regestration-label">
+        <input id="regestration-label"  class="input-field" type="number" placeholder="Enter your regestration no." required="">
+      </label>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="left-column">
+      <div class="labels">
+      <label  for="phone-label">* Phone Number:</label>
+      </div>
+    </div>
+    <div class="right-column">
+      <label for="phone-label">
+        <input id="phone-label"  class="input-field" type="number" placeholder="Enter your phone number" required="">
+      </label>
+    </div>
+  </div>
+   <div class="form-row">
+    <div class="left-column">
+      <div class="labels">
+      <label  for="email-label"> Email:</label>
+      </div>
+    </div>
+    <div class="right-column">
+      <label for="email-label">
+        <input id="email-label"  class="input-field" type="email" placeholder="Enter your email">
+      </label>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="left-column">
+      <label for="age-label">Age:</label>
+    </div>
+    <div class="right-column">
+      <label for="age-label">
+        <input id="age-label" class="input-field" type="number" min="16" max="35" name="age" placeholder="Enter your age">
+      </label>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="left-column">
+      <div class="labels">
+      <label  for="position">* Position:</label>
+      </div>
+    </div>
+    <div class="right-column">
+      <ul>
+        <li class="radio">
+      <label>
+         Goalkeeper
+        <input class="position" type="radio" name="player-position" value="1">
+      </label>
+        </li>
+        <li class="radio">
+      <label>
+         Defender
+        <input class="position" type="radio" name="player-position" value="2">
+      </label>
+        </li>
+        <li class="radio">
+      <label>
+         Midfielder
+        <input class="position" type="radio" name="player-position" value="3">
+      </label>
+        </li>
+        <li class="radio">
+      <label>
+         Forward
+        <input class="position" type="radio" name="player-position" value="4">
+      </label>
+        </li>
+      </ul>
+    </div>
+  </div>
+ <div class="form-row">
+   <div class="left-column">
+     <div class="labels">
+     <label for="photo">* Photo</label>
+     </div>
+   </div>
+   
+   <div class="right-column">
+     <input id="photo" type="file" accept="image/*" class="photo-input"  required="">
+     <label for="photo">Add a Photo</label>
+   </div>
+  </div>
+  <div class="form-row">
+   <div class="left-column">
+     <label for="other-position">Other position:</label>
+  </div>
+  <div class="right-column">
+   <select id="dropdown" name="otherpos" >
+     <option disabled="" value="" selected="">Select an option</option>
+     <option value="ply">Owner</option>
+     <option value="mana">Manager</option>
+     <option value="men">Mentor</option>
+     <option value="Icply">Icon Player</option>
+    </select>
+  </div>
+  </div>
+  <div class="form-row">
+    <div class="left-column">
+      <label>Your Favorite Team/Teams:</label>
+    </div>
+    <div class="right-column">
+      <ul>
+        <li class="checkbox">
+          <label>
+            <input class="expect" type="checkbox" value="1" name="expectations">FC Akhalia Bulls
+          </label>
+        </li>
+         <li class="checkbox">
+          <label>
+            <input class="expect" type="checkbox" value="2" name="expectations">FC Vipers
+          </label>
+        </li>
+         <li class="checkbox">
+          <label>
+            <input class="expect" type="checkbox" value="3" name="expectations">FC 69 Boyz
+          </label>
+        </li>
+         <li class="checkbox">
+          <label>
+            <input class="expect" type="checkbox" value="1" name="expectations">FC Peakey Blinders
+          </label>
+        </li>
+         <li class="checkbox">
+          <label>
+            <input class="expect" type="checkbox" value="1" name="expectations">FC Dragons
+          </label>
+        </li>
+      </ul> 
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="left-column">
+      <label for="comment">Any <strong>comments/suggestions</strong> regarding this tournament:</label> 
+    </div>
+    <div class="right-column">
+     <textarea id="comment" class="input-field" style="height:90px;resize:vertical;" placeholder="Enter your text..."></textarea>
+    </div>
+  </div>
+  <div class="form-row">
+  <button id="submit">Submit</button>
+    </div>
+</form>
+  </body>
+  </html>
+    
+ 
+  
+
+
